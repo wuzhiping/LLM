@@ -1,4 +1,6 @@
-FROM nvidia/cuda:11.3.0-devel-ubuntu20.04
+FROM nvidia/cuda:12.2.0-devel-ubuntu20.04
+#FROM nvidia/cuda:11.3.0-devel-ubuntu20.04
+
 RUN apt update && apt upgrade -y
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
