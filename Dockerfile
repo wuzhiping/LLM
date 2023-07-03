@@ -18,4 +18,7 @@ WORKDIR /ChatGLM2-6B
 RUN pip3 install -r requirements.txt
 RUN apt install vim -y
 
-ADD chatglm2-6b /chatglm2-6b
+#ADD chatglm2-6b /chatglm2-6b
+ADD wenda /wenda
+WORKDIR /wenda
+RUN pip3 install -r ./requirements/requirements.txt
