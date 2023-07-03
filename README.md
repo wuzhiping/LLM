@@ -1,4 +1,4 @@
-![image](https://github.com/wuzhiping/LLM/assets/9571573/56a9f816-b472-4dea-ac59-98e86a141cba)# https://github.com/THUDM/ChatGLM2-6B
+# https://github.com/THUDM/ChatGLM2-6B
 # https://github.com/wenda-LLM/wenda/
 # https://zhuanlan.zhihu.com/p/640235865
 <pre>
