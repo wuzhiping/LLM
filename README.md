@@ -1,4 +1,4 @@
-# https://github.com/THUDM/ChatGLM2-6B
+![image](https://github.com/wuzhiping/LLM/assets/9571573/56a9f816-b472-4dea-ac59-98e86a141cba)# https://github.com/THUDM/ChatGLM2-6B
 # https://github.com/wenda-LLM/wenda/
 # https://zhuanlan.zhihu.com/p/640235865
 <pre>
@@ -12,7 +12,11 @@ https://cloud.tsinghua.edu.cn/d/674208019e314311ab5c/?p=%2Fchatglm2-6b&mode=list
     pytorch_model-00007-of-00007.bin
 
 mv chatglm2-6b models
-  
+
+git clone https://github.com/wenda-LLM/wenda.git
+    cp example.config.yml config.yml
+    ./requirements/requirements.txt
+    
 docker build -t shawoo/cuda:ChatGLM2-6B .
 </pre>
 
