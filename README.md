@@ -1,5 +1,6 @@
 # https://github.com/THUDM/ChatGLM2-6B
 # https://github.com/wenda-LLM/wenda/
+# https://zhuanlan.zhihu.com/p/640235865
 <pre>
 git clone https://github.com/THUDM/ChatGLM2-6B
 
