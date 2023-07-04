@@ -6,6 +6,7 @@
 ## https://github.com/AUTOMATIC1111/stable-diffusion-webui
 ## https://zhuanlan.zhihu.com/p/611519270
 
+## https://github.com/iperov/DeepFaceLive
 <pre>
 git clone https://github.com/THUDM/ChatGLM2-6B
 
