@@ -15,3 +15,15 @@ WORKDIR /stable-diffusion-webui
 
 RUN pip3 install -r requirements_versions.txt
 RUN pip3 install -r requirements.txt
+
+RUN apt-get install sudo
+
+RUN adduser --disabled-password --gecos '' admin
+RUN adduser admin sudo
+RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
+
+RUN apt-get install git -y
+RUN chmod 777  /stable-diffusion-webui
+# user admin
+RUN pip3 install opencv-python-headless
+RUN pip3 install clip
