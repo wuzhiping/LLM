@@ -3,6 +3,8 @@
 ## https://github.com/wenda-LLM/wenda/
 ## https://zhuanlan.zhihu.com/p/640235865
 
+## https://huggingface.co/moka-ai/m3e-base
+
 ## https://github.com/AUTOMATIC1111/stable-diffusion-webui
 ## https://zhuanlan.zhihu.com/p/611519270
 
