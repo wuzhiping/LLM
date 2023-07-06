@@ -1,12 +1,12 @@
 ## https://github.com/THUDM/ChatGLM2-6B
 
 ## https://github.com/wenda-LLM/wenda/
-## https://zhuanlan.zhihu.com/p/640235865
+### https://zhuanlan.zhihu.com/p/640235865
 
 ## https://huggingface.co/moka-ai/m3e-base
 
 ## https://github.com/AUTOMATIC1111/stable-diffusion-webui
-## https://zhuanlan.zhihu.com/p/611519270
+### https://zhuanlan.zhihu.com/p/611519270
 
 ## https://github.com/iperov/DeepFaceLive
 <pre>
