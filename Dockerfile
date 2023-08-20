@@ -15,10 +15,11 @@ RUN ln -sf /usr/bin/python3.8 /usr/bin/python
 ADD ChatGLM2-6B /ChatGLM2-6B
 WORKDIR /ChatGLM2-6B
 
+RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 RUN pip3 install -r requirements.txt
 RUN apt install vim -y
 
 #ADD chatglm2-6b /chatglm2-6b
-ADD wenda /wenda
-WORKDIR /wenda
-RUN pip3 install -r ./requirements/requirements.txt
+# ADD wenda /wenda
+# WORKDIR /wenda
+# RUN pip3 install -r ./requirements/requirements.txt
