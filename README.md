@@ -1,3 +1,9 @@
+<pre>
+docker  rm $(docker ps -a -q)
+
+docker rmi $(docker images | grep "none" | awk '{print $3}')
+</pre>
+
 ## https://github.com/THUDM/ChatGLM2-6B
 
 ## https://github.com/wenda-LLM/wenda/
