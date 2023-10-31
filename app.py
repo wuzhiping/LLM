@@ -70,6 +70,17 @@ class CC:
         first_prompt=message['content']
         if first_prompt!=None:
             #prinqmessages)
+            if his[-1] != None:
+                if his[-1].get("content","***") == message['content']:
+                    print("\n ****** \n 废话连篇 \n ****** \n")
+                    return (False, None )
+
+                #print("#######################\n")
+                #print(his[-1].get("content","***"))
+                #print("\n")
+                #print(message['content'])
+                #print("#######################\n")
+                            
             his.append({'role':'assistant','content':message['content']})
 
             self.Agent.st.chat_message(message["role"],avatar=ai()).write(message['content'])
